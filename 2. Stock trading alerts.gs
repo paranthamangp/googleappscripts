@@ -1,6 +1,6 @@
 /** 
  * Stock Alert Portfolio Sheet Automation
- * USed to
+ * Used to automate the stock laerts when it reaches support zone and when super trend indicator gives signal
  * Change log V1
  *      - 25/03/2025 - Base version of stock alert sheet
  *      - 28/03/2025 - Seperated super trend and stock alert methods
