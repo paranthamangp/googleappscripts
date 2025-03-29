@@ -74,7 +74,6 @@ function copyATHData() {
 };
 
 
-
 /**
  * @ Copy daily ATH data and store it in ATH_Data sheet
  *  Sheet: ATH_Data
@@ -262,11 +261,11 @@ function sendDailyReturnsEmail() {
   SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Static_Data").hideSheet();
   
   
-  var recipient = "pg031994@gmail.com";
+  var recipient = "emailId1id1@gmail.com";
   var subject = "Ok Portfolio Returns for " + date;
   var options = {
-    //cc: "paranthamannec@gmail.com",
-    bcc: "paranthamannec@gmail.com",
+    //cc: "emailid2@gmail.com",
+    bcc: "emailid3@gmail.com",
     //replyTo: "help@example.com"
     attachments: [SpreadsheetApp.getActiveSpreadsheet().getAs(MimeType.PDF).setName("OK Portfolio Summary "+ date +" .pdf")]
   }
